@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10986" started-at="2017-10-13T11:14:58Z" finished-at="2017-10-13T11:15:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10986" started-at="2017-10-13T11:14:58Z" finished-at="2017-10-13T11:15:09Z">
+      <class name="tests.VerifyHomePage">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:tests.VerifyHomePage@51565ec2]" name="setUP" is-config="true" duration-ms="9549" started-at="2017-10-13T16:44:58Z" finished-at="2017-10-13T16:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:tests.VerifyHomePage@51565ec2]" name="verifyPageTitle" duration-ms="312" started-at="2017-10-13T16:45:08Z" finished-at="2017-10-13T16:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.VerifyHomePage@51565ec2]" name="tearDown" is-config="true" duration-ms="1092" started-at="2017-10-13T16:45:08Z" finished-at="2017-10-13T16:45:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=VerifyHomePage.verifyPageTitle()[pri:0, instance:tests.VerifyHomePage@51565ec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.VerifyHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
